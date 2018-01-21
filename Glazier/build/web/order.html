@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background-color:bisque;
+            }
+
+            .csharp {
+                color: maroon;
+                font-family:monospace;
+                font-size:xx-large;
+            } 
+            .btn {
+                width: 100px;
+                height: 50px;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <form action="Servlet" method="get">
+
+            <h1>På denne side kan du bestille et vindue med højde, længde og en ramme størrelse...</h1>
+
+            Højde i cm:
+            <input type="number" name="hig" value="0">&nbsp;
+            Længde i cm:
+            <input type="number" name="len" value="0">&nbsp;
+            RammeType: <select name="frametype"><option value="2">FrameType1</option><option value="3">FrameType2</option><option value="4">FrameType3</option></select>
+            <br /><br />
+            <input type="submit" name="btn" value="Bestil" class="btn" />
+            <br /><br /><br />
+            <img src="zebra.gif" alt="test" /><div class="csharp">Flot ramme!!</div>
+            <br /><img src="thin2.png" alt="test" /><img src="thin3.png" alt="test" />
+            
+
+        </form>
+
+    </body>
+</html>

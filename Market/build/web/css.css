@@ -1,0 +1,108 @@
+/* Made by - Stephan & Casper - CPHBUSINESS */
+
+body{
+    background-color: black;
+    color: white;
+}
+a{
+    color: #cc0004;
+    text-decoration: none;
+}
+h1{
+    margin-left: 25%;
+    color: #cc0004;
+    font-family: Britannic;
+}
+h2{
+    margin-left: 20%;
+    margin-bottom: 50px;
+    color: #cc0004;
+    font-family: Britannic;
+}
+#wrapper{
+    width: 100%;
+    min-height: 800px;
+}
+#content{
+    width: 100%;
+    min-height: 600px;
+}
+header{
+    width: 100%;
+    height: 200px;
+}
+header img{
+    margin-left: 25%;
+}
+#kurv{
+    width: 300px;
+    min-height: 450px;
+    background-color: #1e1919;
+    z-index: 2;
+    float: right;
+    margin-right: 15px;
+}
+nav{
+    width: 75%;
+    height: 450px;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+nav ul li{
+    width: 55%;
+    height: 100px;
+    margin: 15px;
+    border: 2px solid #1e1919;
+    list-style: none;
+    padding: 10px 0 10px 80px;
+    font-size: 80px;
+    color: #cc0004;
+    
+}
+table{
+    height: auto;
+}
+td{
+    width: auto;
+}
+#kurvtable{
+    margin: 40px;
+}
+.varetable{
+    width: 55%;
+    margin-left: 25%;   
+}
+.varetable tr{
+    border: 2px solid #1e1919; 
+    min-height: 30px;
+}
+#error{
+    width: 50%;
+    min-height: 450px;
+    margin-left: 25%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+#admin_table{
+     width: 75%;
+    height: 450px;
+    /*margin-left: 25%;*/
+    margin-top: 50px;
+    
+}
+#admin_table tr{
+     width: 55%;
+    height: 100px;
+    margin: 15px;
+    border: 2px solid #1e1919;
+    list-style: none;
+    padding: 10px 0 10px 80px;
+    font-size: 80px;
+    color: #cc0004;
+}
